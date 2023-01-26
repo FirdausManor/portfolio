@@ -272,3 +272,14 @@ html {
     color: var(--bg-color);
     background: #F6F2ED;
 }
+.click-link {
+    color: var(--main-color);
+}
+
+.click-link:hover {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    transition: .9s;
+    border-radius: 50px;
+    border: 2px solid var(--main-color);
+}
