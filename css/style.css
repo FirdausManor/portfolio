@@ -155,7 +155,7 @@ html {
     font-size: 17px;
 }
 .education {
-    padding: 80px;
+    padding: 50px;
     margin-left: 400px;
     margin-right: 400px;
     margin-bottom: 200px;
@@ -201,6 +201,24 @@ html {
     padding-right: 330px;
     padding-left: 330px;
     border: 2px solid var(--main-color);
+}
+.resume a {
+    text-align: center;
+    font-size: 17px;
+    color: var(--main-color);
+    margin-top: 50px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center;
+    border-radius: 30px;
+    background-color: var(--bg-color);
+    transition: .4s;
+}
+.resume a:hover {
+    color: var(--bg-color);
+    text-align: center;
+    border-radius: 30px;
+    background-color: var(--main-color);
 }
 .project {
     font-size: 17px;
